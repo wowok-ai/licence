@@ -1,35 +1,86 @@
-WoWok SDK Commercial License Agreement
+WoWok Project License Information
+
+================================================================================
+IMPORTANT LICENSE NOTICE
+================================================================================
+
+This project contains code from multiple sources with different licenses:
+
+1. SUI BLOCKCHAIN CODE (Apache License 2.0)
+   -----------------------------------------
+   Portions of this project are derived from or based on the Sui blockchain
+   project, which is Copyright (c) Mysten Labs, Inc. and licensed under the
+   Apache License 2.0.
+   
+   The following components are forked from Sui and remain under Apache 2.0:
+   - Move framework modules (crates/sui-framework/packages/wow-framework/sources/)
+   - Core blockchain infrastructure
+   - Protocol implementations
+   
+   For the complete Apache License 2.0 text, see:
+   - THIRD_PARTY_LICENSES/APACHE_LICENSE.txt
+   - https://www.apache.org/licenses/LICENSE-2.0
+
+2. WOWOK ORIGINAL CODE (Commercial License)
+   -----------------------------------------
+   Original code developed by WoWok Team that is NOT derived from Sui is
+   licensed under the WoWok Commercial License (see Section 3 below).
+   
+   This includes:
+   - New Move modules not present in Sui
+   - SDK extensions and tooling
+   - Documentation and examples
+   - Build scripts and deployment tools
+
+3. THIRD-PARTY COMPONENTS
+   -----------------------
+   This project includes various third-party open-source components.
+   See NOTICE file and THIRD_PARTY_LICENSES/ directory for details.
+
+================================================================================
+APACHE LICENSE 2.0 (For Sui-derived code)
+================================================================================
+
+Copyright (c) Mysten Labs, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use Sui-derived portions of this file except in compliance
+with the License. You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+================================================================================
+WOWOK COMMERCIAL LICENSE (For original WoWok code)
+================================================================================
 
 Version 1.0, Effective Date: 2025
 
-================================================================================
-
 1. DEFINITIONS
 
-   "Software" refers to the WoWok SDK, including all source code, object code,
-   documentation, and related materials.
+   "Software" refers to the WoWok original code (not including Sui-derived
+   code), including source code, object code, documentation, and related
+   materials.
 
    "Licensor" refers to WoWok Team (build@wowok.net).
 
    "Licensee" refers to the individual or entity that has purchased a license
    to use the Software.
 
-   "Authorized User" refers to employees, contractors, or agents of the
-   Licensee who are authorized to use the Software.
-
-================================================================================
-
 2. GRANT OF LICENSE
 
    Subject to the terms and conditions of this Agreement, the Licensor grants
-   the Licensee a non-exclusive, non-transferable, royalty-bearing license to:
+   the Licensee a non-exclusive, non-transferable license to:
 
-   a) Use the Software for internal business purposes;
+   a) Use the WoWok original Software for internal business purposes;
    b) Integrate the Software into Licensee's products and services;
    c) Distribute the Software as part of Licensee's products to end users;
    d) Modify the Software for Licensee's internal use only.
-
-================================================================================
 
 3. RESTRICTIONS
 
@@ -38,108 +89,46 @@ Version 1.0, Effective Date: 2025
    a) Sublicense, sell, rent, lease, or otherwise transfer the Software
       except as expressly permitted in Section 2;
 
-   b) Reverse engineer, decompile, disassemble, or otherwise attempt to
-      derive the source code of the Software, except to the extent
-      expressly permitted by applicable law;
-
-   c) Remove or alter any copyright, trademark, or other proprietary notices
+   b) Remove or alter any copyright, trademark, or other proprietary notices
       contained in the Software;
 
-   d) Use the Software in any manner that violates applicable laws or
+   c) Use the Software in any manner that violates applicable laws or
       regulations;
 
-   e) Use the Software to compete with the Licensor's products or services;
-
-   f) Share, publish, or distribute the source code of the Software to
+   d) Share, publish, or distribute the source code of the Software to
       any third party without prior written consent from the Licensor.
-
-================================================================================
 
 4. THIRD-PARTY COMPONENTS
 
    The Software includes third-party open-source components that are licensed
-   under their respective licenses. A list of third-party components and their
-   licenses is provided in the NOTICE file and the THIRD_PARTY_LICENSES
-   directory.
-
-   The Licensee acknowledges and agrees that:
-
-   a) Third-party components remain subject to their original licenses;
-
-   b) The Licensor provides no warranty for third-party components;
-
-   c) The Licensee must comply with the terms of all applicable third-party
-      licenses.
-
-================================================================================
+   under their respective licenses. See NOTICE file for details.
 
 5. INTELLECTUAL PROPERTY
 
-   The Software and all intellectual property rights therein are and shall
-   remain the exclusive property of the Licensor. This Agreement does not
-   grant the Licensee any ownership rights in the Software.
-
-================================================================================
+   WoWok original code and all intellectual property rights therein are and
+   shall remain the exclusive property of the Licensor.
 
 6. WARRANTY DISCLAIMER
 
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
-
-   THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR
-   THAT DEFECTS WILL BE CORRECTED.
-
-================================================================================
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 7. LIMITATION OF LIABILITY
 
    IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
-   SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO
-   LOSS OF PROFITS, DATA, OR BUSINESS INTERRUPTION, ARISING OUT OF OR IN
-   CONNECTION WITH THIS AGREEMENT OR THE USE OF THE SOFTWARE, EVEN IF THE
-   LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-   THE TOTAL LIABILITY OF THE LICENSOR SHALL NOT EXCEED THE AMOUNT PAID BY
-   THE LICENSEE FOR THE SOFTWARE IN THE TWELVE (12) MONTHS PRECEDING THE
-   CLAIM.
+   SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
 
 ================================================================================
-
-8. TERMINATION
-
-   This Agreement shall remain in effect until terminated.
-
-   The Licensor may terminate this Agreement immediately if the Licensee
-   breaches any provision of this Agreement.
-
-   Upon termination, the Licensee shall immediately cease all use of the
-   Software and destroy all copies thereof.
-
+COMPLIANCE REQUIREMENTS
 ================================================================================
 
-9. GOVERNING LAW
+When using or distributing this project, you MUST:
 
-   This Agreement shall be governed by and construed in accordance with the
-   laws of the jurisdiction in which the Licensor is established, without
-   regard to its conflict of law principles.
+1. Retain all copyright notices in the source code
+2. Include this LICENSE file
+3. Include the NOTICE file
+4. Include the Apache License 2.0 text (in THIRD_PARTY_LICENSES/)
+5. Clearly distinguish between Sui-derived code and WoWok original code
 
-================================================================================
+For licensing inquiries, please contact: build@wowok.net
 
-10. ENTIRE AGREEMENT
-
-    This Agreement constitutes the entire agreement between the parties
-    concerning the subject matter hereof and supersedes all prior or
-    contemporaneous agreements, whether written or oral.
-
-================================================================================
-
-For licensing inquiries, please contact:
-
-WoWok Team
-Email: build@wowok.net
-Website: https://wowok.net
-
-================================================================================
-END OF LICENSE AGREEMENT
 ================================================================================

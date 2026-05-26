@@ -3,22 +3,58 @@ https://wowok.net
 
 Copyright (c) 2024-2025 WoWok Team. All Rights Reserved.
 
-====================================================================
+================================================================================
+FORK ATTRIBUTION NOTICE
+================================================================================
 
-COMMERCIAL LICENSE NOTICE
+This project is a FORK of the Sui blockchain project originally developed by
+Mysten Labs, Inc. (https://github.com/MystenLabs/sui).
 
-This software is proprietary and confidential. Unauthorized copying,
-transfer, or distribution of this software, via any medium, is
-strictly prohibited. All rights reserved.
+SUI-DERIVED COMPONENTS (Apache License 2.0)
+-------------------------------------------
+The following components are derived from or based on Sui and remain licensed
+under the Apache License 2.0:
 
-For licensing inquiries, please contact: build@wowok.net
+- Core blockchain infrastructure (crates/)
+- Move framework modules (crates/sui-framework/packages/wow-framework/sources/)
+- Protocol implementations
+- Consensus mechanisms
+- Transaction processing logic
 
-====================================================================
+Original Sui Copyright: Copyright (c) Mysten Labs, Inc.
+Sui License: Apache License 2.0
+Sui Repository: https://github.com/MystenLabs/sui
 
+MODIFICATIONS BY WOWOK
+----------------------
+WoWok has made the following modifications to Sui-derived code:
+
+1. Framework modules have been renamed from "sui::" to "wow::" namespace
+2. Additional Move modules have been added for WoWok-specific functionality
+3. Protocol parameters have been adjusted for WoWok network requirements
+4. SDK has been extended with WoWok-specific features
+
+All modifications to Sui-derived files retain the original Mysten Labs copyright
+notice and add the WoWok copyright notice, as required by Apache 2.0.
+
+================================================================================
+WOWOK ORIGINAL COMPONENTS
+================================================================================
+
+The following components are original work by WoWok Team and are licensed
+under the WoWok Commercial License:
+
+- New Move modules not present in original Sui
+- WoWok SDK extensions and tooling
+- Documentation and guides
+- Build and deployment scripts
+- Web interfaces and applications
+
+================================================================================
 THIRD-PARTY SOFTWARE NOTICES
+================================================================================
 
-This product contains software developed by third parties. The
-following components are used under their respective licenses:
+This product contains software developed by third parties:
 
 1. @mysten/bcs, @mysten/utils
    Copyright: Mysten Labs, Inc.
@@ -60,55 +96,17 @@ following components are used under their respective licenses:
    License: MIT License
    Source: https://github.com/fabian-hiller/valibot
 
-====================================================================
+================================================================================
+LICENSE SUMMARY
+================================================================================
 
-APACHE 2.0 LICENSE COMPONENTS
+- Sui-derived code: Apache License 2.0
+- WoWok original code: WoWok Commercial License
+- Third-party components: See respective licenses above
 
-The following components are licensed under the Apache License 2.0:
-- @mysten/bcs
-- @mysten/utils
-- @protobuf-ts/grpcweb-transport
-- @protobuf-ts/runtime
-- @protobuf-ts/runtime-rpc
+For complete license texts, see the LICENSE file and THIRD_PARTY_LICENSES/
+directory.
 
-You may obtain a copy of the Apache License 2.0 at:
-http://www.apache.org/licenses/LICENSE-2.0
+For licensing inquiries, please contact: build@wowok.net
 
-====================================================================
-
-MIT LICENSE COMPONENTS
-
-The following components are licensed under the MIT License:
-- @noble/curves
-- @noble/hashes
-- @noble/post-quantum
-- @scure/base
-- @scure/bip32
-- @scure/bip39
-- libsql
-- lodash
-- valibot
-
-====================================================================
-
-BSD LICENSE COMPONENTS
-
-The following components are licensed under BSD License:
-- @zip.js/zip.js
-
-====================================================================
-
-DISCLAIMER
-
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-====================================================================
-
-END OF NOTICE
+================================================================================
