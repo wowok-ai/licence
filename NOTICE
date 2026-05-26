@@ -1,0 +1,114 @@
+WoWok Blockchain Project
+https://wowok.net
+
+Copyright (c) 2024-2025 WoWok Team. All Rights Reserved.
+
+====================================================================
+
+COMMERCIAL LICENSE NOTICE
+
+This software is proprietary and confidential. Unauthorized copying,
+transfer, or distribution of this software, via any medium, is
+strictly prohibited. All rights reserved.
+
+For licensing inquiries, please contact: build@wowok.net
+
+====================================================================
+
+THIRD-PARTY SOFTWARE NOTICES
+
+This product contains software developed by third parties. The
+following components are used under their respective licenses:
+
+1. @mysten/bcs, @mysten/utils
+   Copyright: Mysten Labs, Inc.
+   License: Apache License 2.0
+   Source: https://github.com/MystenLabs/sui
+
+2. @noble/curves, @noble/hashes, @noble/post-quantum
+   Copyright: Paul Miller (paulmillr.com)
+   License: MIT License
+   Source: https://github.com/paulmillr/noble-curves
+
+3. @protobuf-ts/*
+   Copyright: Timo Stamm
+   License: Apache License 2.0
+   Source: https://github.com/timostamm/protobuf-ts
+
+4. @scure/*
+   Copyright: Paul Miller (paulmillr.com)
+   License: MIT License
+   Source: https://github.com/paulmillr/scure-base
+
+5. @zip.js/zip.js
+   Copyright: Gildas Lormeau
+   License: BSD-3-Clause
+   Source: https://github.com/gildas-lormeau/zip.js
+
+6. libsql (libSQL)
+   Copyright: Turso and contributors
+   License: MIT License
+   Source: https://github.com/tursodatabase/libsql
+
+7. lodash
+   Copyright: OpenJS Foundation and other contributors
+   License: MIT License
+   Source: https://github.com/lodash/lodash
+
+8. valibot
+   Copyright: Fabian Hiller
+   License: MIT License
+   Source: https://github.com/fabian-hiller/valibot
+
+====================================================================
+
+APACHE 2.0 LICENSE COMPONENTS
+
+The following components are licensed under the Apache License 2.0:
+- @mysten/bcs
+- @mysten/utils
+- @protobuf-ts/grpcweb-transport
+- @protobuf-ts/runtime
+- @protobuf-ts/runtime-rpc
+
+You may obtain a copy of the Apache License 2.0 at:
+http://www.apache.org/licenses/LICENSE-2.0
+
+====================================================================
+
+MIT LICENSE COMPONENTS
+
+The following components are licensed under the MIT License:
+- @noble/curves
+- @noble/hashes
+- @noble/post-quantum
+- @scure/base
+- @scure/bip32
+- @scure/bip39
+- libsql
+- lodash
+- valibot
+
+====================================================================
+
+BSD LICENSE COMPONENTS
+
+The following components are licensed under BSD License:
+- @zip.js/zip.js
+
+====================================================================
+
+DISCLAIMER
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+====================================================================
+
+END OF NOTICE
