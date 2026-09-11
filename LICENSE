@@ -61,6 +61,12 @@ WOWOK COMMERCIAL LICENSE (For original WoWok code)
 
 Version 1.0, Effective Date: 2025
 
+   End-user note: end users of products distributed under this license
+   (e.g., the WoWok desktop client) are additionally subject to the
+   end-user license terms ("EULA") bundled with those products. The EULA
+   incorporates this license by reference and is published together with
+   this license.
+
 1. DEFINITIONS
 
    "Software" refers to the WoWok original code (not including Sui-derived
@@ -110,12 +116,53 @@ Version 1.0, Effective Date: 2025
 
 6. WARRANTY DISCLAIMER
 
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+   THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS,
+   WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+   LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+   PURPOSE, ACCURACY, CONTINUOUS AVAILABILITY, AND NON-INFRINGEMENT.
 
-7. LIMITATION OF LIABILITY
+7. HIGH-RISK USE - DIGITAL ASSETS AND DATA
 
-   IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
-   SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
+   The Software connects to public blockchain networks and third-party
+   services. The Licensee acknowledges and accepts that:
+
+   a) Blockchain transactions are irreversible and cannot be canceled,
+      recalled, or undone by the Licensor under any circumstances;
+
+   b) The Licensee is solely responsible for safeguarding private keys,
+      passwords, and recovery phrases; if lost, assets and data may
+      become permanently inaccessible and the Licensor CANNOT recover,
+      reset, or restore them;
+
+   c) Digital assets are volatile and high-risk; use of the Software may
+      result in total or partial loss of asset value at any time;
+
+   d) The Licensor does not operate, custody, or control the Licensee's
+      accounts, wallets, private keys, or digital assets, and is not a
+      bank, exchange, custodian, broker, or financial adviser;
+
+   e) Smart contracts, workflow templates, and third-party services the
+      Software interacts with are not audited, endorsed, or guaranteed
+      by the Licensor;
+
+   f) The Licensee is solely responsible for verifying transaction
+      contents and the legality of its activities in its jurisdiction.
+
+8. LIMITATION OF LIABILITY
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+   THE LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, OR FOR ANY LOSS OF
+   DIGITAL ASSETS, CRYPTOCURRENCY, TOKENS, NFTS, PRIVATE KEYS, RECOVERY
+   PHRASES, PROFITS, REVENUE, GOODWILL, DATA, OR INFORMATION - EVEN IF
+   ADVISED OF THE POSSIBILITY OF SUCH LOSS - ARISING OUT OF OR RELATING
+   TO THE SOFTWARE OR ITS USE.
+
+   SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN
+   WARRANTIES OR LIABILITY, SO SOME OF THE ABOVE MAY NOT APPLY TO YOU.
+   IN SUCH CASES, THE LICENSOR'S TOTAL AGGREGATE LIABILITY SHALL NOT
+   EXCEED THE GREATER OF THE AMOUNT PAID FOR THE SOFTWARE OR THE MINIMUM
+   AMOUNT MANDATED BY LAW.
 
 ================================================================================
 COMPLIANCE REQUIREMENTS
